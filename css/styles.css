@@ -55,10 +55,12 @@ a {
 .section {
    padding: 120px 0;
 }
-
+/* cont */
 .container {
-   width: 1440px;
-   margin: auto;
+   /* padding-left: 15px; */
+   /* padding-right: 15px; */
+   margin-left: auto;
+   margin-right: auto
 }
 
 img {
@@ -181,6 +183,7 @@ address {
    text-align: center;
    position: relative;
    z-index: 2;
+   margin: 0 auto;
 }
 
 .hero-title {
@@ -363,10 +366,13 @@ address {
    display: flex;
    gap: 24px;
    justify-content: center;
+   flex-wrap: wrap;
 }
 
 .adv-item {
    display: inline-block;
+   text-align: center;
+   margin-bottom: 20px;
 
 }
 
@@ -404,6 +410,7 @@ address {
    display: flex;
    justify-content: center;
    gap: 24px;
+   flex-wrap: wrap;
 }
 
 /* End of What Are We Doing Section */
@@ -766,4 +773,29 @@ margin-right: 20px;
 }
 .card-list-item-caption p {
    padding: 40px 32px;
+}
+/* End of Portfolio Style */
+
+/* CSS MEDIA QUERY */
+@media (min-width: 428px){
+   .container{
+      width: 428px;
+   }
+   .adv-list
+   .what-are-we-doing-list{
+      flex-basis: calc(100% - 72px);
+   }
+}
+@media (min-width: 768px){
+   .container{
+      width: 768px;
+   }
+   .adv-list{
+      flex-basis: calc(100% / 2 - 72px);
+   }
+}
+@media (min-width: 1200px){
+   .container{
+      width: 1200px;
+   }
 }
