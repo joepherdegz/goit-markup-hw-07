@@ -815,7 +815,7 @@ address {
       }
 }
 .subscribe-form {
-   position: relative;
+   /* position: relative; */
    /* margin-right: 20px; */
    justify-content: center;
    align-items: center;
@@ -844,13 +844,15 @@ address {
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-wrap: nowrap;
+   /* flex-wrap: nowrap; */
+    
 }
 .subs {
    padding-bottom: 10px;
     
 }
 .subs-btn {
+   display: inline-flex;
    color: var(--WHITE);
       background-color: var(--IRIS);
       border: unset;
@@ -859,15 +861,24 @@ address {
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
-      padding: 10px 80px 10px 20px;
+      padding: 8px 24px;
       cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      /* width: 165px; */
+      /* height: 40px; */
+      fill: var(--WHITE);
+      gap: 20px;
       
 }
 .subscribe-icon {
-   position: absolute;
-   fill: var(--WHITE);
+   /* position: absolute; */
+   /* fill: var(--WHITE); */
    /* padding-top: 5px; */
-   margin-left: 80px;
+   /* margin-left: 80px; */
+   /* height: 24px; */
+   /* width: 24; */
+   /* padding-left: ; */
 }
 
 /* End of Footer */
