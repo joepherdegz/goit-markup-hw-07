@@ -411,19 +411,28 @@ address {
 .adv-section {
    padding: 120px;
    @media screen and (min-width: 768px) {
-         padding: 96px 0;
-      }
+      padding: 96px 0;
+   }
    
-      @media screen and (min-width: 1158px) {
-         padding-top: 120px;
-         padding-bottom: 0;
-      }
+   @media screen and (min-width: 1158px) {
+      padding-top: 120px;
+       padding-bottom: 0;
+   }
 }
 
 .adv-list {
    display: flex;
-   gap: 24px;
+   gap: 72px;
    justify-content: center;
+   flex-direction: column;
+   @media screen and (min-width: 768px){
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 24px;
+      row-gap: 50px;
+   }
 }
 
 .adv-item {
@@ -467,7 +476,17 @@ address {
    display: flex;
    justify-content: center;
    gap: 24px;
-    
+}
+.what-are-we-doing-section{
+   display: none;
+   @media screen and (min-width: 768px) {
+      display: none;
+   }
+   @media screen and (min-width: 1158px) {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      }
 }
 
 /* End of What Are We Doing Section */
@@ -482,10 +501,17 @@ address {
 
 .our-team-list {
    display: flex;
-   
-   
+   flex-direction: column;
    gap: 72px;
-   justify-content: center;
+   @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 64px;
+      column-gap: 24px;
+      }
 }
 .our-team-item img {
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -557,7 +583,7 @@ address {
 
 /* Customer Section */
 .customer-section {
-   padding: 120px 0px;
+   /* padding: 96px 0px; */
 }
 
 .customer-title {
