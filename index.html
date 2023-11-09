@@ -6,10 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>goit-markup-hw-07</title>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+         
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -17,8 +15,8 @@
 </head>
 <body>
     <!-- header -->
-    <header class="header">
-        <div class="main-header-container container">
+    <div class="main-header-container container">
+        <header class="header">
             <nav class="navigation">
                 <a class="iris-logo" href="index.html">WEB<span class="header-text-logo-studio">STUDIO</span></a>
                 <ul class="nav-list">
@@ -46,14 +44,15 @@
                     </li>
                 </ul>
             </address>
-        </div>
-    </header>
+        </header>  
+    </div>   
+    
 
     <!-- main -->
     <main>
         <!-- Hero Section -->
-        <section class="hero-section section">
-            <div class="container">
+        <div class="container">
+            <section class="hero-section section">
                 <h1 class="hero-title">Effective Solutions<br>for Your Business</h1>
                 <button type="button" class="hero-btn" data-modal-open>Order Service</button>
                 <div class="backdrop is-hidden" data-modal>
@@ -101,12 +100,12 @@
 
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <!-- section 1 -->
-        <section class="adv-section">
-            <div class="container section-container">
+        <div class="container section-container">
+            <section class="adv-section">
                 <ul class="adv-list">
                     <li class="adv-item">
                         <svg class="adv-icon icon-strat">
@@ -140,8 +139,8 @@
                         <p class="adv-description">Design practice focused on digital<br>experiences. We bring forth a deep<br>passion for problem-solving.</p>
                     </li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <!-- section-2 -->
         <section class="what-are-we-doing-section section">
@@ -165,163 +164,164 @@
         </section>
 
         <!-- section-3 -->
-        <section class="our-team-section section">
-            <h1 class="our-team-title title">Our Team</h1>
-            <ul class="our-team-list">
-                <li class="our-team-item">
-                    <img src="images1/img-team-card-1-(1).jpg" alt="mark-guerrero" width="264" height="260">
-                    <div class="our-team-item-container">
-                        <h2 class="our-team-name">Mark Guerrero</h2>
-                        <p class="our-team-position">Product Designer</p>
+        <div class="container">
+            <section class="our-team-section section">
+                <h1 class="our-team-title title">Our Team</h1>
+                <ul class="our-team-list">
+                    <li class="our-team-item">
+                        <img src="images1/img-team-card-1-(1).jpg" alt="mark-guerrero" width="264" height="260">
+                        <div class="our-team-item-container">
+                            <h2 class="our-team-name">Mark Guerrero</h2>
+                            <p class="our-team-position">Product Designer</p>
 
-                        <ul class="social-media-list">
-                            <li class="social-media-items">
+                            <ul class="social-media-list">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon icon-instagram">
                                         <use href="./images1/icons.svg#instagram-2"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#twitter-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
-                                <a class="social-media-link" href="#">
-                                    <svg class="social-media-icon">
-                                        <use href="./images1/icons.svg#facebook-1"></use>
-                                    </svg></a>
-                            </li>
+                                <li class="social-media-items">
+                                    <a class="social-media-link" href="#">
+                                        <svg class="social-media-icon">
+                                            <use href="./images1/icons.svg#facebook-1"></use>
+                                        </svg></a>
+                                </li>
 
-                            <li class="social-media-items">
-                                <a class="social-media-link" href="#">
-                                    <svg class="social-media-icon">
-                                        <use href="./images1/icons.svg#linkedin-1"></use>
-                                    </svg></a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
+                                <li class="social-media-items">
+                                    <a class="social-media-link" href="#">
+                                        <svg class="social-media-icon">
+                                            <use href="./images1/icons.svg#linkedin-1"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
 
-                <li class="our-team-item">
-                    <img src="images1/img-team-card-2-(1).jpg" alt="tom-ford" width="264" height="260">
-                    <div class="our-team-item-container">
-                        <h2 class="our-team-name">Tom Ford</h2>
-                        <p class="our-team-position">Frontend Developer</p>
+                    <li class="our-team-item">
+                        <img src="images1/img-team-card-2-(1).jpg" alt="tom-ford" width="264" height="260">
+                        <div class="our-team-item-container">
+                            <h2 class="our-team-name">Tom Ford</h2>
+                            <p class="our-team-position">Frontend Developer</p>
 
-                        <ul class="social-media-list">
-                            <li class="social-media-items">
+                            <ul class="social-media-list">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#instagram-2"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#twitter-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#facebook-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#linkedin-1"></use>
                                     </svg></a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
 
-                <li class="our-team-item">
-                    <img src="images1/img-team-card-3-(1).jpg" alt="camila-garcia" width="264" height="260">
-                    <div class="our-team-item-container">
-                        <h2 class="our-team-name">Camila Garcia</h2>
-                        <p class="our-team-position">Marketing</p>
+                    <li class="our-team-item">
+                        <img src="images1/img-team-card-3-(1).jpg" alt="camila-garcia" width="264" height="260">
+                        <div class="our-team-item-container">
+                            <h2 class="our-team-name">Camila Garcia</h2>
+                            <p class="our-team-position">Marketing</p>
 
-                        <ul class="social-media-list">
-                            <li class="social-media-items">
+                            <ul class="social-media-list">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#instagram-2"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#twitter-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#facebook-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#linkedin-1"></use>
                                     </svg></a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
 
-                <li class="our-team-item">
-                    <img src="images1/img-team-card-4-(1).jpg" alt="daniel-wilson" width="264" height="260">
-                    <div class="our-team-item-container">
-                        <h2 class="our-team-name">Daniel Wilson</h2>
-                        <p class="our-team-position">UI Designer</p>
+                    <li class="our-team-item">
+                        <img src="images1/img-team-card-4-(1).jpg" alt="daniel-wilson" width="264" height="260">
+                        <div class="our-team-item-container">
+                            <h2 class="our-team-name">Daniel Wilson</h2>
+                            <p class="our-team-position">UI Designer</p>
 
-                        <ul class="social-media-list">
-                            <li class="social-media-items">
-                                <a class="social-media-link" href="#">
+                            <ul class="social-media-list">
+                                <li class="social-media-items">
+                                    <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#instagram-2"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#twitter-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#facebook-1"></use>
                                     </svg></a>
-                            </li>
+                                </li>
 
-                            <li class="social-media-items">
+                                <li class="social-media-items">
                                 <a class="social-media-link" href="#">
                                     <svg class="social-media-icon">
                                         <use href="./images1/icons.svg#linkedin-1"></use>
                                     </svg></a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
         <!-- section 4 -->
         <section class="customer-section">
             <div class="customer-container container">
