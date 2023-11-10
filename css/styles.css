@@ -130,10 +130,10 @@ nav {
          gap: 120px;
       }
    
-      @media screen and (min-width:1158px) {
+      /* @media screen and (min-width:1158px) {
          display: flex;
          gap: 76px;
-      }
+      } */
 }
 .nav-list {
    display: none;
