@@ -261,20 +261,57 @@ address {
  
 .mob-main-nav{
    display: flex;
-   justify-content: space-between;
-   gap: 150px;
+   /* justify-content: space-between; */
+   flex-direction: column;
+   gap: 250px;
 
+}
+.mob-nav{
+   display: inline-flex;
+   flex-direction: column;
+   color: var(--NAVY-BLUE);
+   font-size: 36px;
+   font-family: inherit;
+   font-weight: 700;
+   line-height: 40px;
+   letter-spacing: 0.72px;
+   gap: 40px;
+}
+.mob-menu-active{
+   color: var( --IRIS)
+}
+.mob-nav-address{
+   gap: 40px;
+}
+.mob-nav-tel{
+   font-family: Roboto;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 40px;
+   letter-spacing: 0.72px;  
+}
+.mob-nav-mail{
+   font-family: Roboto;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.4px;
 }
 .mob-nav-social-media{
    display: flex;
+   gap: 56px;
+   /* display: inline-flex; */
+   /* align-items: flex-start; */
 }
 .mob-nav-social-media-list{
-      display: flex;
+      
       background-color: var(--IRIS);
       border-radius: 50%;
       padding: 8px;
-      align-items: center;
+      
       fill: currentColor;
+      
+
 }
 .mob-nav-social-media-icon {
    width: 24px;
