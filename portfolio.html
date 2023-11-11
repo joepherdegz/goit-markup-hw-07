@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Web Studio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -46,68 +46,67 @@
                     </li>
                 </ul>
             </address>
+            <!-- MOBILE MENU SECTION -->
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-icon" width="32" height="22">
+                    <use class="mobile-menu-icon" href="./images1/icons.svg#hamburger"></use>
+                </svg>
+            </button>
+            <div class="js-menu-container mobile-menu" id="mobile-menu">
+                <button class="js-close-menu" type="button">
+                    <svg class="js-menu-close" width="8" height="8">
+                        <use class="mobile-menu-icon" href="./images1/icons.svg#close"></use>
+                    </svg>
+                </button>
+                <div class="mob-main-nav">
+                    <div class="">
+                        <ul class="mob-nav">
+                            <li class="mov-nav-list"><a class="mob-menu-active" href="index.html">Studio</a></li>
+                            <li class="mov-nav-list"><a class="" href="portfolio.html">Portfolio</a></li>
+                            <li class="mov-nav-list"><a class="" href="">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="mob-nav-link">
+                        <ul class="mob-nav-address">
+                            <li class="mob-nav-tel"><a href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
+                            <li><a id="mob-nav-mail" href="mail:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                        <ul class="mob-nav-social-media">
+                            <li class="mob-nav-social-media-list">
+                                <a class="mob-nav-social-media-link" href="#">
+                                    <svg class="mob-nav-social-media-icon">
+                                        <use href="./images1/icons.svg#instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mob-nav-social-media-list">
+                                <a class="mob-nav-social-media-link" href="#">
+                                    <svg class="mob-nav-social-media-icon">
+                                        <use href="./images1/icons.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mob-nav-social-media-list">
+                                <a class="mob-nav-social-media-link" href="#">
+                                    <svg class="mob-nav-social-media-icon">
+                                        <use href="./images1/icons.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mob-nav-social-media-list">
+                                <a class="mob-nav-social-media-link" href="#">
+                                    <svg class="mob-nav-social-media-icon">
+                                        <use href="./images1/icons.svg#linkedin2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <!-- MOBILE MENU SECTION -->
-    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg class="menu-icon" width="32" height="22">
-            <use class="mobile-menu-icon" href="./images1/icons.svg#hamburger"></use>
-        </svg>
-    </button>
-    <div class="js-menu-container mobile-menu" id="mobile-menu">
-        <button class="js-close-menu" type="button">
-            <svg class="js-menu-close" width="8" height="8">
-                <use class="mobile-menu-icon" href="./images1/icons.svg#close"></use>
-            </svg>
-        </button>
-        <div class="mob-main-nav">
-            <div class="">
-                <ul class="mob-nav">
-                    <li class="mov-nav-list"><a class="mob-menu-active" href="index.html">Studio</a></li>
-                    <li class="mov-nav-list"><a class="" href="portfolio.html">Portfolio</a></li>
-                    <li class="mov-nav-list"><a class="" href="">Contacts</a></li>
-                </ul>
-            </div>
-            <div class="mob-nav-link">
-                <ul class="mob-nav-address">
-                    <li class="mob-nav-tel"><a href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
-                    <li><a id="mob-nav-mail" href="mail:info@devstudio.com">info@devstudio.com</a></li>
-                </ul>
-                <ul class="mob-nav-social-media">
-                    <li class="mob-nav-social-media-list">
-                        <a class="mob-nav-social-media-link" href="#">
-                            <svg class="mob-nav-social-media-icon">
-                                <use href="./images1/icons.svg#instagram-2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mob-nav-social-media-list">
-                        <a class="mob-nav-social-media-link" href="#">
-                            <svg class="mob-nav-social-media-icon">
-                                <use href="./images1/icons.svg#twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mob-nav-social-media-list">
-                        <a class="mob-nav-social-media-link" href="#">
-                            <svg class="mob-nav-social-media-icon">
-                                <use href="./images1/icons.svg#facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="mob-nav-social-media-list">
-                        <a class="mob-nav-social-media-link" href="#">
-                            <svg class="mob-nav-social-media-icon">
-                                <use href="./images1/icons.svg#linkedin2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- main -->
+       <!-- main -->
     <main>
         <div class="fltr-btn section">
             <div class="container btn-container">
@@ -344,6 +343,10 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
 </body>
 </html>

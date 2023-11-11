@@ -307,11 +307,7 @@ address {
    color: var(--SLATE, #434455);
    padding-top: 20px;
 }
-.mob-nav-link{
-   /* margin: 40px auto; */
-   /* column-gap: 40px; */
-   /* row-gap: 40px; */
-}
+ 
 .mob-nav-social-media{
    display: flex;
    gap: 56px;
@@ -1057,6 +1053,9 @@ address {
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
+   @media screen and (min-width: 768px){
+      column-gap: 40px;
+   }
 }
  
 .card-list-item {
