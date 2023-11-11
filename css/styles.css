@@ -224,6 +224,12 @@ address {
 /* MOBILE MENU */
 .mobile-menu-icon{
    fill: currentColor;
+   
+}
+.js-open-menu{
+   @media screen and (min-width: 768px){
+      display: none;
+   }
 }
 .js-menu-container{
    display: block;
@@ -289,23 +295,27 @@ address {
    font-size: 36px;
    font-weight: 700;
    line-height: 40px;
-   letter-spacing: 0.72px;  
+   letter-spacing: 0.72px;
+   padding-bottom: 20px;
 }
-.mob-nav-mail{
+#mob-nav-mail{
    font-family: Roboto;
    font-size: 20px;
    font-weight: 500;
    line-height: 24px;
    letter-spacing: 0.4px;
-   color: var(--SLATE);
+   color: var(--SLATE, #434455);
+   padding-top: 20px;
 }
 .mob-nav-link{
-   margin: 40px auto;
+   /* margin: 40px auto; */
+   /* column-gap: 40px; */
+   /* row-gap: 40px; */
 }
 .mob-nav-social-media{
    display: flex;
    gap: 56px;
-   /* margin-top: 48px; */
+   margin-top: 40px;
 
    /* display: inline-flex; */
    /* align-items: flex-start; */
@@ -314,13 +324,26 @@ address {
       background-color: var(--IRIS);
       border-radius: 50%;
       padding: 8px;
-      fill: currentColor;
+      justify-content: center;
+      align-items: center;
+      /* fill: currentColor; */
+      /* width: 40px; */
+      height: 40px;
 }
 .mob-nav-social-media-icon {
    width: 24px;
    height: 24px;
    fill: var(--CLOUD);   
 }
+.mob-nav-social-media-link:hover
+.mob-nav-social-media-link:focus{
+   background-color: var(--OCEAN);
+}
+#mob-nav-mail:hover
+#mob-nav-mail:focus{
+   color: var(--OCEAN);
+}
+
 
 /* Hero Section */
 .hero-section {
