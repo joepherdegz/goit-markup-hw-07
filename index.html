@@ -43,21 +43,32 @@
                     </li>
                 </ul>
             </address>
-                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                 <svg class="menu-icon" width="32" height="22">
-                    <use href="./images1/icons.svg#hamburger"></use>
+                    <use class="mobile-menu-icon" href="./images1/icons.svg#hamburger"></use>
                 </svg>
-                </button>
-                <div class="js-menu-container mobile-menu" id="mobile-menu">
-                    <div class="">
-                        <button class="js-close-menu" type="button">
-                            <svg class="js-menu-close" width="8" height="8">
-                                <use href="./images1/icons.svg#close"></use>
+            </button>
+            <div class="js-menu-container mobile-menu" id="mobile-menu">
+                <div class="">
+                    <button class="js-close-menu" type="button">
+                        <svg class="js-menu-close" width="8" height="8">
+                            <use class="mobile-menu-icon" href="./images1/icons.svg#close"></use>
+                        </svg>
+                    </button>
+                    <ul class="mob-nav">
+                        <li class="mov-nav-list"><a class="mob-menu-active" href="index.html">Studio</a></li>
+                        <li class="mov-nav-list"><a class="" href="portfolio.html">Portfolio</a></li>
+                        <li class="mov-nav-list"><a class="" href="">Contacts</a></li>
+                    </ul>
+                    <div class="mob-nav-link">
+                        <ul class="mob-nav-address">
+                            <li class="mob-nav-tel"><a href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
+                            <li class="mob-nav-mail"><a href="mail:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
 
-                            </svg>
-                        </button>
                     </div>
                 </div>
+            </div>
 
         </div> 
     </header>  
