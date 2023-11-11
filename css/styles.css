@@ -1055,7 +1055,10 @@ address {
    column-gap: 24px;
    row-gap: 48px;
    @media screen and (min-width: 768px){
-      column-gap: 40px;
+      column-gap: 10px;
+   }
+   @media screen and (min-width: 1158px){
+      column-gap: 15px;
    }
 }
  
