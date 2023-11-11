@@ -282,6 +282,7 @@ address {
 }
 .mob-nav-address{
    gap: 40px;
+   
 }
 .mob-nav-tel{
    font-family: Roboto;
@@ -296,10 +297,16 @@ address {
    font-weight: 500;
    line-height: 24px;
    letter-spacing: 0.4px;
+   color: var(--SLATE);
+}
+.mob-nav-link{
+   margin: 40px auto;
 }
 .mob-nav-social-media{
    display: flex;
    gap: 56px;
+   /* margin-top: 48px; */
+
    /* display: inline-flex; */
    /* align-items: flex-start; */
 }
@@ -316,8 +323,7 @@ address {
 .mob-nav-social-media-icon {
    width: 24px;
    height: 24px;
-   fill: var(--CLOUD);
-   
+   fill: var(--CLOUD);   
 }
 
 /* Hero Section */
