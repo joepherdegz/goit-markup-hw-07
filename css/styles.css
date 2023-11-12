@@ -341,8 +341,8 @@ address {
 /* Hero Section */
 .hero-section {
    background-color: var(--NAVY-BLUE);
-   background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-      url(../images1/people-office.jpg);
+   /* background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+      url(../images1/people-office-mobile.jpg); */
    padding: 112px 0;
    background-repeat: no-repeat;
    display: block;
@@ -356,7 +356,7 @@ address {
          @media (-webkit-min-device-pixel-ratio: 2),
          (min-resolution: 192dpi),
          (min-resolution: 2dppx) {
-         background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-mobile@2x.jpg);
+         background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office-mobile.jpg), url(../images1/people-office-mobile@2x.jpg);
       }
       @media screen and (min-width: 768px) {
       background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-tablet@2x.jpg);
@@ -364,7 +364,16 @@ address {
          @media (-webkit-min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-               background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-tablet@2x); }
+            background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-tablet@2x); }
+      }
+      @media screen and (min-width: 1158px) {
+         background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-deskttop@2x.jpg);
+
+         @media (-webkit-min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-desktop@2x);
+            }
       }
 }
 
