@@ -377,7 +377,7 @@ address {
             (min-resolution: 2dppx) {
             background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images1/people-office.jpg), url(../images1/people-office-desktop@2x);
             background-position: center;
-            background-repeat: no-repeat;
+            background-size: cover;
             
          
          }
